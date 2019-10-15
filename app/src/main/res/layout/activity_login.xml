@@ -110,6 +110,7 @@
             </LinearLayout>
 
             <TextView
+                    android:onClick="@{viewmodel::onSignup}"
                     android:layout_marginTop="12dp"
                     android:textColor="@color/colorPrimary"
                     android:layout_centerHorizontal="true"
